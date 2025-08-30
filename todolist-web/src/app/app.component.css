@@ -1,0 +1,11 @@
+/* src/app/app.component.css */
+
+.site-container {
+  display: flex;
+  flex-direction: column; /* Organiza os filhos (navbar, main, footer) em coluna */
+  min-height: 100vh; /* Garante que o container ocupe PELO MENOS a altura total da tela */
+}
+
+.site-content {
+  flex: 1; /* A MÁGICA! Faz o conteúdo principal crescer e ocupar o espaço vago, empurrando o footer para o final */
+}
