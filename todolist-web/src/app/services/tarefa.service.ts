@@ -31,7 +31,7 @@ export class TarefaService {
     return this.http.put<Tarefa>(url, tarefa);
   }
 
-  // DELETE: Deleta uma tarefa pelo seu ID
+  // DELETE: Deleta umatarefa pelo seu ID
   deleteTarefa(id: number): Observable<void> {
     const url = `${this.apiUrl}/${id}`;
     return this.http.delete<void>(url);
